@@ -27,7 +27,7 @@ public class Commando
         Console.WriteLine("The soldier is hiding");
     }
 
-    public void Attack()
+    public virtual void Attack()
     {
         Console.WriteLine(this._coodeName + " soldier attacking");
     }

@@ -10,4 +10,10 @@ public class AirCommando : Commando
     {
         Console.WriteLine("The soldier is parachuting now.");
     }
+
+
+    public override void Attack()
+    {
+        Console.WriteLine("Airborne Commando Soldier Attacks");
+    }
 }
