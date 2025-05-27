@@ -2,15 +2,17 @@
 
 public class Commando
 {
-    private string _name;
-    private string _coodeName;
-    private string[] _tools = { "Hammer", "chisel", "rope", "bag", "water" };
-    private string _status = "Hide";
+    private string _name { get; set; }
+    private string _coodeName { get; set; }
+    private string[] _tools { get; set; }
+    private string _status { get; set; }
 
     public Commando(string name, string codeName)
     {
         this._name = name;
         this._coodeName = codeName;
+        this._tools = new string[5] { "Hammer", "chisel", "rope", "bag", "water" };
+        this._status = "Hide";
     }
 
     public void Walk()
