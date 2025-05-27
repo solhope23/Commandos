@@ -7,7 +7,7 @@ public class Commando
     private string[] _tools = { "Hammer", "chisel", "rope", "bag", "water" };
     private string _status = "Hide";
 
-    public Commando(string name, string codeName, string status)
+    public Commando(string name, string codeName)
     {
         this._name = name;
         this._coodeName = codeName;
