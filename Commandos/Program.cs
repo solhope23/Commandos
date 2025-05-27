@@ -10,6 +10,8 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
+            Commando newCommando = new Commando("david", "007");
+            Weapon newWeapon = new Weapon("gun", "baba", 5);
         }
     }
 }
