@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commando\AirCommando .cs" />
     <Compile Include="Commando\Commando.cs" />
+    <Compile Include="Commando\SeaCommando.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weapon\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

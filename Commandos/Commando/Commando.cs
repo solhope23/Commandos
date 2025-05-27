@@ -2,10 +2,10 @@
 
 public class Commando
 {
-    private string _name;
-    private string _coodeName;
-    private string[] _tools;
-    private string _status;
+    protected string _name;
+    protected string _coodeName;
+    protected string[] _tools;
+    protected string _status;
 
     public Commando(string name, string codeName)
     {

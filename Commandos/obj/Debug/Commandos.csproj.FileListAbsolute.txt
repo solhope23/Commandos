@@ -1,2 +1,7 @@
 C:\Users\SH\source\repos\Commandos\Commandos\obj\Debug\Commandos.csproj.AssemblyReference.cache
 C:\Users\SH\source\repos\Commandos\Commandos\obj\Debug\Commandos.csproj.CoreCompileInputs.cache
+C:\Users\SH\source\repos\Commandos\Commandos\bin\Debug\Commandos.exe.config
+C:\Users\SH\source\repos\Commandos\Commandos\bin\Debug\Commandos.exe
+C:\Users\SH\source\repos\Commandos\Commandos\bin\Debug\Commandos.pdb
+C:\Users\SH\source\repos\Commandos\Commandos\obj\Debug\Commandos.exe
+C:\Users\SH\source\repos\Commandos\Commandos\obj\Debug\Commandos.pdb
