@@ -2,9 +2,9 @@
 
 public class Weapon
 {
-    private string _name;
-    private string _manufacturer;
-    private int _numberOfBullets;
+    private string _name { get;};
+    private string _manufacturer { get;};
+    private int _numberOfBullets { get;};
 
     public Weapon(string name, string manufacturer, int numberOfBullets)
     {
@@ -18,5 +18,4 @@ public class Weapon
         Console.WriteLine("A shot was fired.");
         this._numberOfBullets --;
     }
-
 }
