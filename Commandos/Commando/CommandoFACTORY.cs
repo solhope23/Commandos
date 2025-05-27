@@ -10,28 +10,29 @@ public class CommandoFactory
     }
 
 
-    private Commando newComando(string hisType, string Name, string codeName)
+    private Commando newComando(string Name, string codeName)
     {
-        switch (hisType)
+        Random random = new Random();
+        int randomType = random.Next(1,4);
+
+        switch (randomType)
         {
-            case "AirCommando":
+            case 1:
                 return new AirCommando(Name, codeName);
-            case "SeaCommando":
+            case 2:
                 return new SeaCommando(Name, codeName);
-            case "Commando":
-                return new Commando(Name, codeName);
             default:
-                throw new Exception ("There is no such type of commando.");
+                return new Commando(Name, codeName);
         }
     }
 
-    public void AddCommando(string hisType, string Name, string codeName)
+    public void AddCommando(string Name, string codeName)
     {
         for (int i = 0; i < CommandoList.Length; i++)
         {
             if (CommandoList[i] != null)
             {
-                CommandoList[i] = newComando(hisType, Name, codeName);
+                CommandoList[i] = newComando(Name, codeName);
                 break;
             }
         }
