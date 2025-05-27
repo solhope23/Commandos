@@ -4,8 +4,8 @@ public class Commando
 {
     private string _name;
     private string _coodeName;
-    private string[] _tools { get;}
-    private string _status { get;}
+    private string[] _tools;
+    private string _status;
 
     public Commando(string name, string codeName)
     {
