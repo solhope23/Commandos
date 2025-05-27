@@ -32,9 +32,9 @@ public class Commando
         Console.WriteLine(this._coodeName + " soldier attacking");
     }
 
-    public string SayName(string rankGeneralOrColonel)
+    public string SayName(string yourCommanderRank)
     {
-        switch (rankGeneralOrColonel)
+        switch (yourCommanderRank)
         {
             case "General":
                 return this._name;
