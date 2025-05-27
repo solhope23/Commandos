@@ -11,4 +11,9 @@ public class SeaCommando : Commando
         Console.WriteLine("The soldier is swimming.");
     }
 
+    public override void Attack()
+    {
+        Console.WriteLine("Marine commando soldier attacks");
+    }
+
 }
