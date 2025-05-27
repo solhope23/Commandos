@@ -2,10 +2,10 @@
 
 public class Commando
 {
-    private string _name { get; set; }
-    private string _coodeName { get; set; }
-    private string[] _tools { get; set; }
-    private string _status { get; set; }
+    private string _name;
+    private string _coodeName;
+    private string[] _tools { get;}
+    private string _status { get;}
 
     public Commando(string name, string codeName)
     {
@@ -30,5 +30,18 @@ public class Commando
     public void Attack()
     {
         Console.WriteLine(this._coodeName + " soldier attacking");
+    }
+
+    public string SayName(string rankGeneralOrColonel)
+    {
+        switch (rankGeneralOrColonel)
+        {
+            case "General":
+                return this._name;
+            case "Colonel":
+                return this._coodeName;
+            default:
+                throw new Exception("you are not allowed");
+        }
     }
 }
