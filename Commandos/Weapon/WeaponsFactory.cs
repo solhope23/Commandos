@@ -1,19 +1,19 @@
 ﻿public class WeaponsFactory
 {
-    private weapon[] weaponList;
+    private Weapon[] weaponList;
 
-    public weaponsFactory(int AmountOfWeapons)
+    public WeaponsFactory(int AmountOfWeapons)
     {
-        this.weaponList = new enemy[AmountOfWeapons];
+        this.weaponList = new Weapon[AmountOfWeapons];
     }
 
-    public void newEnemy(string Name)
+    public void newWeapon(string name, string manufacturer, int numberOfBullets)
     {
         for (int i = 0; i < weaponList.Length; i++)
         {
             if (weaponList[i] != null)
             {
-                weaponList[i] = new enemy(Name);
+                weaponList[i] = new Weapon(name, manufacturer, numberOfBullets);
                 break;
             }
         }

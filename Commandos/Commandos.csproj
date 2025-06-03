@@ -49,6 +49,7 @@
     <Compile Include="Commando\SeaCommando.cs" />
     <Compile Include="enemy\enemy.cs" />
     <Compile Include="enemy\EnemyFactory.cs" />
+    <Compile Include="GAME\GAME.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Weapon\Weapon.cs" />
